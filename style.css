@@ -189,3 +189,42 @@ option.soon{color:#5f6368}
 .pf-states,.pf-states ul{list-style:none;margin:0;padding:0}.pf-states>li{margin-bottom:8px}.pf-st{font-weight:700;color:var(--ink);display:block}
 .pf-states ul li{padding-left:14px}.pf-states a{display:inline-flex;align-items:center;min-height:44px}
 .pk-wrap.js .picker-fallback{display:none}
+/* ---- flags: availability, outside town, dated rate sheets, conflicting figures (added Nov 19) ---- */
+.chip.warn{background:#fbe9e1;color:#7d2c0c;border-color:#efc8b6}.chip.away{background:#eef0f6;color:#2f3a5c;border-color:#d4d9e8}
+.flag{display:block;width:fit-content;margin-top:6px;font-family:var(--sans);font-style:normal;font-size:.78rem;font-weight:700;letter-spacing:.01em;padding:2px 10px;border-radius:999px;background:#fbefd8;color:#6b3f00;border:1px solid #efd9ab}
+.flag.conflict{background:#fbe9e1;color:#7d2c0c;border-color:#efc8b6}
+.flagline{margin:12px 0 0;padding:10px 14px;border-radius:var(--r-s);font-size:.92rem;line-height:1.5;background:#fdf6ea;border-left:4px solid var(--ochre);color:var(--text)}
+.flagline.warn{background:#fcf0ea;border-left-color:var(--clay)}
+.conflict{margin:12px 0 0;padding:12px 16px;border-radius:var(--r-s);background:#fcf0ea;border:1px solid #efc8b6;font-size:.92rem;line-height:1.55}.conflict p{margin:0}
+.conflict .fig{font-weight:700;color:var(--ink)}.conflict a{color:var(--clay2)}
+.tag{display:block;width:fit-content;margin-top:5px;font:600 .74rem/1.3 var(--sans);padding:2px 9px;border-radius:999px;background:#eef0f6;color:#2f3a5c}.tag.warn{background:#fbe9e1;color:#7d2c0c}
+.fig-line{display:block;margin-top:6px}.fig-line a{font-weight:600;font-size:.85rem;color:var(--clay2);white-space:nowrap}
+.away-note{font-style:normal;color:var(--muted)}
+.lc-prose p{font-size:1.06rem;line-height:1.75;max-width:68ch;margin:0 0 12px}.lc-prose .lc-src{font-size:.86rem;color:var(--muted)}.lc-src a{color:var(--muted)}
+.lc-h,.towns-h{font:600 1.08rem/1.3 var(--serif);color:var(--ink);margin:26px 0 10px}
+.lc-words{line-height:1.75;max-width:68ch;margin:0 0 8px}.inline-cite{font-size:.84rem;color:var(--muted)}.inline-cite a{color:var(--muted)}
+details.faq .refs{font-size:.84rem;color:var(--muted);margin:-10px 0 20px}details.faq .refs a{color:var(--muted)}
+.soon-note{margin-top:22px;padding:14px 18px;border-radius:var(--r-s);background:var(--card);border:1px dashed var(--line2);color:var(--text);max-width:70ch}
+
+/* signup form tokens (used by shared/signup.css) */
+:root{--signup-accent:var(--pine);--signup-accent-hover:#15302a;--signup-surface:var(--sand2)}
+/* Shared email-signup band. Uses each site's existing tokens; set --signup-accent, --signup-accent-hover, --signup-surface on :root. */
+.mogul-signup{background:var(--signup-surface,var(--sand2,var(--mist,var(--parch,#f4efe6))));border-top:1px solid var(--line,#e3d9c6);padding:48px 0 40px}
+.mogul-signup-card{max-width:640px}
+.mogul-signup h2{font-family:var(--serif,Georgia,serif);font-weight:560;letter-spacing:-.015em;line-height:1.18;color:var(--ink,#1b2622);margin:0 0 .4em;font-size:clamp(1.45rem,2.6vw,1.85rem)}
+.mogul-signup-lede{margin:0 0 1.15em;font-size:1.05rem;line-height:1.6;color:var(--text,#2c3632);max-width:38em}
+.mogul-signup-form{margin:0}
+.mogul-signup-row{margin:0 0 14px}
+.mogul-signup-row label,.mogul-check{display:block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted,#56605b);margin:0 0 6px}
+.mogul-signup-row input[type=email]{width:100%;min-height:52px;font:inherit;font-size:1rem;color:var(--ink,#1b2622);background:var(--card,#fff);border:1.5px solid var(--line2,#cdbfa5);border-radius:var(--r-s,12px);padding:0 14px}
+.mogul-signup-row input[type=email]:focus{border-color:var(--signup-accent,var(--ink,#1b2622));outline:3px solid var(--focus,#b8640f);outline-offset:0}
+.mogul-check{display:flex;align-items:flex-start;gap:10px;text-transform:none;letter-spacing:0;font-size:1rem;font-weight:500;color:var(--text,#2c3632);line-height:1.45;margin:0 0 16px;cursor:pointer}
+.mogul-check input{width:22px;height:22px;min-width:22px;margin:2px 0 0;accent-color:var(--signup-accent,var(--ink,#1b2622));flex:none}
+.mogul-promise,.mogul-note{margin:0 0 12px;font-size:.92rem;line-height:1.55;color:var(--muted,#56605b)}
+.mogul-promise{color:var(--text,#2c3632)}
+.mogul-signup-submit{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;margin:4px 0 10px;border:0;border-radius:14px;background:var(--signup-accent,var(--ink,#1b2622));color:#fff;font:700 1rem/1 var(--sans,system-ui,sans-serif);cursor:pointer}
+.mogul-signup-submit:hover{background:var(--signup-accent-hover,#111);color:#fff}
+.mogul-signup-submit:disabled{opacity:.6;cursor:not-allowed}
+.mogul-signup-status{margin:8px 0 0;font-size:1.02rem;line-height:1.55;color:var(--ink,#1b2622)}
+.mogul-hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+@media print{.mogul-signup{display:none}}
