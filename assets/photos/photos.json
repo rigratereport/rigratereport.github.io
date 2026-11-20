@@ -30,27 +30,6 @@
   "license_url": "https://unsplash.com/license",
   "checked": "2026-11-19"
  },
- "tow": {
-  "files": {
-   "1000": [
-    "tow-1000.webp",
-    1000,
-    666
-   ],
-   "600": [
-    "tow-600.webp",
-    600,
-    400
-   ]
-  },
-  "alt": "black SUV and white trailer",
-  "photographer": "Benjamin Zanatta",
-  "profile": "https://unsplash.com/@benjaminzanatta",
-  "page": "https://unsplash.com/photos/black-suv-and-white-trailer-CfhtS2nj95c",
-  "license": "Unsplash License",
-  "license_url": "https://unsplash.com/license",
-  "checked": "2026-11-19"
- },
  "boats": {
   "files": {
    "1000": [
@@ -89,27 +68,6 @@
   "photographer": "Adam Winger",
   "profile": "https://unsplash.com/@awcreativeut",
   "page": "https://unsplash.com/photos/storage-unit-doors-on-gravel-lot-9Z0-Ugz6LWw",
-  "license": "Unsplash License",
-  "license_url": "https://unsplash.com/license",
-  "checked": "2026-11-19"
- },
- "motorhome": {
-  "files": {
-   "1000": [
-    "motorhome-1000.webp",
-    1000,
-    750
-   ],
-   "600": [
-    "motorhome-600.webp",
-    600,
-    450
-   ]
-  },
-  "alt": "a small camper parked on a dirt road",
-  "photographer": "Benjamin Cheng",
-  "profile": "https://unsplash.com/@benjamin_photography",
-  "page": "https://unsplash.com/photos/a-small-camper-parked-on-a-dirt-road-ojuL50zLw-o",
   "license": "Unsplash License",
   "license_url": "https://unsplash.com/license",
   "checked": "2026-11-19"
