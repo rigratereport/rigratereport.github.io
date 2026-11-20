@@ -1,0 +1,117 @@
+{
+ "lot": {
+  "files": {
+   "1000": [
+    "lot-1000.webp",
+    1000,
+    666
+   ],
+   "600": [
+    "lot-600.webp",
+    600,
+    400
+   ],
+   "1600": [
+    "lot-1600.webp",
+    1600,
+    1066
+   ],
+   "800": [
+    "lot-800.webp",
+    800,
+    533
+   ]
+  },
+  "alt": "white and brown rv trailer on green grass field during daytime",
+  "photographer": "Izabela Mierzejewski",
+  "profile": "https://unsplash.com/@izabelam",
+  "page": "https://unsplash.com/photos/white-and-brown-rv-trailer-on-green-grass-field-during-daytime-SWuFxMb8Y8w",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "checked": "2026-11-19"
+ },
+ "tow": {
+  "files": {
+   "1000": [
+    "tow-1000.webp",
+    1000,
+    666
+   ],
+   "600": [
+    "tow-600.webp",
+    600,
+    400
+   ]
+  },
+  "alt": "black SUV and white trailer",
+  "photographer": "Benjamin Zanatta",
+  "profile": "https://unsplash.com/@benjaminzanatta",
+  "page": "https://unsplash.com/photos/black-suv-and-white-trailer-CfhtS2nj95c",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "checked": "2026-11-19"
+ },
+ "boats": {
+  "files": {
+   "1000": [
+    "boats-1000.webp",
+    1000,
+    666
+   ],
+   "600": [
+    "boats-600.webp",
+    600,
+    400
+   ]
+  },
+  "alt": "a row of boats sitting under a blue sky",
+  "photographer": "Brandon Griggs",
+  "profile": "https://unsplash.com/@paralitik",
+  "page": "https://unsplash.com/photos/a-row-of-boats-sitting-under-a-blue-sky-p1VQOUCZJS4",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "checked": "2026-11-19"
+ },
+ "units": {
+  "files": {
+   "1000": [
+    "units-1000.webp",
+    1000,
+    750
+   ],
+   "600": [
+    "units-600.webp",
+    600,
+    450
+   ]
+  },
+  "alt": "A row of white storage unit doors on a gravel lot under blue sky",
+  "photographer": "Adam Winger",
+  "profile": "https://unsplash.com/@awcreativeut",
+  "page": "https://unsplash.com/photos/storage-unit-doors-on-gravel-lot-9Z0-Ugz6LWw",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "checked": "2026-11-19"
+ },
+ "motorhome": {
+  "files": {
+   "1000": [
+    "motorhome-1000.webp",
+    1000,
+    750
+   ],
+   "600": [
+    "motorhome-600.webp",
+    600,
+    450
+   ]
+  },
+  "alt": "a small camper parked on a dirt road",
+  "photographer": "Benjamin Cheng",
+  "profile": "https://unsplash.com/@benjamin_photography",
+  "page": "https://unsplash.com/photos/a-small-camper-parked-on-a-dirt-road-ojuL50zLw-o",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "checked": "2026-11-19"
+ }
+}
